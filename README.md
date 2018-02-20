@@ -18,10 +18,10 @@ Some compilers choose to bit extend any bit manipulations operations to the larg
 functions with a b(n) suffix will adhere to the width designated by the width following the b.
 
 
-##### Logical Left Shift - LS_b(n) (value, num_shifts)
+`LS_b(n) (value, num_shifts) | Logical Left Shift`  
 These macros will shift the value given by num_shifts left while also adhering to the width denoted by n.   
 
-##### Logical Right Shift - LRS_b(n) (value, num_shifts)
+`LRS_b(n) (value, num_shifts) | Logical Right Shift`  
 These macros will shift the value given by num_shifts right while concatenating a 0 to the leftmost bit while also adhering to the width denoted by n.
 
 
