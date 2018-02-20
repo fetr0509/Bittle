@@ -38,8 +38,8 @@
       <file leaf-file-name="test_bittle.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_bittle.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+            <state relative-caret-position="-802">
+              <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
                 <element signature="e#46#65#0" expanded="true" />
               </folding>
@@ -50,8 +50,8 @@
       <file leaf-file-name="bittle.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bittle.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="85" lean-forward="false" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+            <state relative-caret-position="272">
+              <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="e#109#128#0" expanded="true" />
               </folding>
@@ -132,6 +132,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1928" />
     <option name="y" value="-8" />
@@ -250,12 +251,12 @@
       <updated>1518935696083</updated>
       <workItem from="1518935697804" duration="3769000" />
       <workItem from="1519026044841" duration="13564000" />
-      <workItem from="1519082368326" duration="8315000" />
+      <workItem from="1519082368326" duration="10401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25648000" />
+    <option name="totallyTimeSpent" value="27734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1096" extended-state="6" />
@@ -431,8 +432,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bittle.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="85" lean-forward="false" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+        <state relative-caret-position="272">
+          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="e#109#128#0" expanded="true" />
           </folding>
@@ -441,8 +442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_bittle.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        <state relative-caret-position="-802">
+          <caret line="14" column="9" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
             <element signature="e#46#65#0" expanded="true" />
           </folding>
