@@ -12,7 +12,7 @@
 
 #pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wshift-count-overflow"
-// Left Shift tests
+
 void LeftShiftTest()
 {
     uint8_t c = 0xe8;
@@ -41,7 +41,7 @@ void LeftShiftTest()
     assert_int_equal(0x76e4f17700000000, LS_64b(l,32));
 
 }
-// Logical Right Shift tests
+
 void LogicalRightShiftTests()
 {
     int8_t c = -0x74;
@@ -72,6 +72,7 @@ void LogicalRightShiftTests()
     assert_int_equal(0x4600000000000000, LRS_64b(l,1));
     assert_int_equal(0x8c000000, LRS_64b(l,32));
 }
+
 
 void ArithmeticRightShiftTests()
 {
@@ -203,7 +204,6 @@ void CountSetBitsTests()
     count = 0;
     CountSetBits_64b(UINT64_MAX,count);
     assert_int_equal(0x40, count);
-    count = 0;
 }
 
 #pragma GCC diagnostic pop

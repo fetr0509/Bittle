@@ -9,7 +9,7 @@
 #include <stdint.h>
 
 #ifdef INT8_MAX
-
+// Various bit-manipulation operations for 8 bit values
 #define LS_8b(number, shift) (((number) << (shift)) & UINT8_MAX)
 #define LRS_8b(number, shift) ((((number) >> (shift)) & ~(UINT64_MAX << (8 - (shift)))) & UINT8_MAX)
 #define ARS_8b(number, shift) ((((number) >> (shift)) | (-((number) >> 7) << (8 - (shift)))) & UINT8_MAX)
@@ -27,7 +27,7 @@ do {                                                    \
 #endif //INT8
 
 #ifdef INT16_MAX
-
+// Various bit-manipulation operations for 16 bit values
 #define LS_16b(number, shift) (((number) << (shift)) & UINT16_MAX)
 #define LRS_16b(number, shift) ((((number) >> (shift)) & ~(UINT64_MAX << (16 - (shift)))) & UINT16_MAX)
 #define ARS_16b(number, shift) ((((number) >> (shift)) | (-((number) >> 15) << (16 - (shift)))) & UINT16_MAX)
@@ -46,7 +46,7 @@ do {                                                    \
 
 
 #ifdef INT32_MAX
-
+// Various bit-manipulation operations for 32 bit values
 #define LS_32b(number, shift) (((number) << (shift)) & UINT32_MAX)
 #define LRS_32b(number, shift) ((((number) >> (shift)) & ~(UINT64_MAX << (32 - (shift)))) & UINT32_MAX)
 #define ARS_32b(number, shift) ((((number) >> (shift)) | (-((number) >> 31) << (32 - (shift)))) & UINT32_MAX)
@@ -65,7 +65,7 @@ do {                                                    \
 
 
 #ifdef INT64_MAX
-
+// Various bit-manipulation operations for 64 bit values
 #define LS_64b(number, shift) (((number) << (shift)) & UINT64_MAX)
 #define LRS_64b(number, shift) ((((number) >> (shift)) & ~(UINT64_MAX << (64 - (shift)))) & UINT64_MAX)
 #define ARS_64b(number, shift) ((((number) >> (shift)) | (-((number) >> 63) << (64 - (shift)))) & UINT64_MAX)
