@@ -4,4 +4,6 @@
 
 #include "bittle.h"
 
-typedef int ISOCDECLARATION;
+typedef int ISO_CDECLARATION;
+
+// This file is here to satisfy compilation into cmake tests in library format. 
